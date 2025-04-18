@@ -9,7 +9,7 @@ class Pet:
 
 
 
-def get_status(self):
+    def get_status(self):
         print(f"🌟 {self.name}'s Status 🌟")
         print(f"Hunger: {self.hunger}/10")
         print(f"Energy: {self.energy}/10")
