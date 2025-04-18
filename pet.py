@@ -7,4 +7,11 @@ class Pet:
         self.energy = energy
         self.happiness = happiness
 
-    #Other methods and attributes can be added here as needed
+
+
+def get_status(self):
+        print(f"🌟 {self.name}'s Status 🌟")
+        print(f"Hunger: {self.hunger}/10")
+        print(f"Energy: {self.energy}/10")
+        print(f"Happiness: {self.happiness}/10")
+        print("-" * 25)
